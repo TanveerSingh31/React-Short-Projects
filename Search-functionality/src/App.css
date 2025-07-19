@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+.shimmer {
+  width: 100vw;
+  background-color: green;
+}
+
+
+.btn {
+  color: blue;
+  padding: 0 10px;
+  font-weight: bol;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.navbar > div {
+  display: inline-block;
+  margin: 0 10px;
+}

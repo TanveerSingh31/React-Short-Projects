@@ -3,10 +3,11 @@ import { useState } from 'react';
 function SearchBar(props) {
 
     let { addData } = props;
-    let [data, setData] = useState("");
+    let [data, setData] = useState();
 
     function handleClick() {
-        addData(data);
+        let id = Math.floor(Math.random() * 10);
+        addData({data, id});
         setData("");
     }
 
